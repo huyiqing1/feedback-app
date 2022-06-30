@@ -32,7 +32,8 @@ header {
   margin-bottom: 30px;
 }
 
-.feedback-item {
+.feedback-item,
+.feedback-form {
   background-color: #fff;
   color: #333;
   border-radius: 15px;
@@ -41,12 +42,14 @@ header {
   position: relative;
 }
 
-.feedback-item.reverse {
+.feedback-item.reverse,
+.feedback-form.reverse {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
-.feedback-item h2 {
+.feedback-item h2,
+.feedback-form h2 {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
