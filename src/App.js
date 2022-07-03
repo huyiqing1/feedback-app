@@ -18,7 +18,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route
-                exact path="/"
+                path="/"
                 element={
                   <>
                     <FeedbackForm />
